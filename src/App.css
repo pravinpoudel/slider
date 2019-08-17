@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: relative;
+  max-width: 500px;
+  margin: 0px auto;
+}
+img {
+  width: 100%;
+}
+
+button.next_button {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+}
+
+figure {
+  position: relative;
+}
+.slidercaption {
+  position: absolute;
+  bottom: 5%;
+  color: white;
+  background: #333333cc;
+  padding: 5px;
+  width: 80%;
+}
+
+.slidercaption span.title {
+  line-height: 2;
+  padding-top: 7px;
+  text-transform: uppercase;
+}
+
+.slidercaption span.caption {
+  font-size: 12px;
+  padding-top: 7px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
